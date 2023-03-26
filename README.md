@@ -1,14 +1,18 @@
 <h1> Exploring DNS </h1>
-<h2> Environment and Technology </h2>. 
+In this lab exercise we explore various properties of DNS and DNS records. We will be using A-records and CNAME records. Both of these records are helpful for our machines to navigate the internet properly and organize various domains. A-records can map domain names to IP address while CNAME records can map together two different domain names. This is helpful for a site that has several different domains to create subdomains. 
+
+<h2> Environment and Technology </h2> 
 
 - Microsoft Azure
 - Command Line
 
-<h2> Operating Systems
+<h2> Operating Systems</h2> 
+
 - Windows Server 2022
 - Windows 10 Pro 
 
-<h2> Prerequisites </h2>
+<h2> Prerequisites </h2> 
+  
 - Domain Controller
 - Administrative User
 - Domain Network
@@ -39,7 +43,7 @@
 <p align="center">
 <img src="https://i.imgur.com/BS8mWb2.png" height="50%" width="50%" alt="Adding mainframe A-record"/>
 
-6. Within Client-1, ping mainfram again. Observe that the successful ping.
+6. Within Client-1, ping mainfram again. Observe the successful ping.
 <p align="center">
 <img src="https://i.imgur.com/sE3dWZh.png" height="50%" width="50%" alt="Ping mainframe success"/>
 
