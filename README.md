@@ -63,6 +63,16 @@
 <p align="center">
 <img src="https://i.imgur.com/QmgpMVM.png" height="50%" width="50%" alt="Observe the updated A-record"/>
 
+12. Within DC-1, create a CNAME record that points any host "search" to www.google.com. 
+<p align="center">
+<img src="https://i.imgur.com/xyTXfOS.png" height="50%" width="50%" alt="Creating a new CNAME record"/>
+
+13. Within Client-1, ping search and observe the results of the CNAME record.  
+<p align="center">
+<img src="https://i.imgur.com/PMO2vq5.png" height="50%" width="50%" alt="Observe the results of the new CNAME record"/>
+
+14. Within Client-1, use the command "nslookup search"
+
 
 
 
