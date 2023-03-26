@@ -49,7 +49,21 @@
 
 8. Within Client-1, ping mainframe again. Observe the success ping, but at the previous IP adress for mainframe. 
 <p align="center">
-<img src="https://i.imgur.com/GFBA1ok.png" height="50%" width="50%" alt="Unexpected ping mainframe success"/>. 
+<img src="https://i.imgur.com/GFBA1ok.png" height="50%" width="50%" alt="Unexpected ping mainframe success"/>.  
+
+9. within Client-1, observe the local DNS cache using "ipconfig /displaydns". Observe the A-record with the previous mainframe IP address. 
+<p align="center">
+<img src="https://i.imgur.com/F7DM5BI.png" height="50%" width="50%" alt="Display DNS results show previous mainframe IP Address"/>
+
+10. Within Client-1, run the command line as an Administrator. Flush the DNS cache using the command "ipconfig /flushdns".
+<p align="center">
+<img src="https://i.imgur.com/WZYRuZB.png" height="50%" width="50%" alt="Flushing the DNS cahce"/>
+
+11. Attempt to ping the mainframe again. Observe the A-record is updated to the new record. 
+<p align="center">
+<img src="https://i.imgur.com/QmgpMVM.png" height="50%" width="50%" alt="Observe the updated A-record"/>
+
+
 
 
 
