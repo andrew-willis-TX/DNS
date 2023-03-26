@@ -59,7 +59,7 @@
 <p align="center">
 <img src="https://i.imgur.com/WZYRuZB.png" height="50%" width="50%" alt="Flushing the DNS cahce"/>
 
-11. Attempt to ping the mainframe again. Observe the A-record is updated to the new record. 
+11. Attempt to ping the mainframe again. Observe the A-record is updated to the new IP Address. 
 <p align="center">
 <img src="https://i.imgur.com/QmgpMVM.png" height="50%" width="50%" alt="Observe the updated A-record"/>
 
